@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.6.2
+Tested up to: 6.7.1
 Stable tag: 1.1.2
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -108,50 +108,6 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
-
-= 1.1.2 - 8 Aug 24 =
-* Fix not reloading issue after print.
-
-= 1.1.1 - 4 Aug 24 =
-* Fix section print issue.
-
-= 1.1.0 - 5 Jun 24 =
-* Added several default icons, including the upload options.
-
-= 1.0.9 - 7 Mar 24 =
-* Fix security issue
-* Reduce JS dependency
-
-= 1.0.8 =
-* Add support for modal
-
-= 1.0.7 =
-* Add translate feature
-
-= 1.0.6 =
-* Fix HTML Render
-
-= 1.0.5 =
-* Reduce PHP Code
-* Performance Improvement
-
-= 1.0.4 =
-* Reduce PHP Code
-
-= 1.0.3 =
-* Performance upgrade
-
-= 1.0.2 =
-* Performance upgrade
-
-= 1.0.1 =
-* Update theme and Colors
-
-= 1.0.0 =
-* Initial Release
-
-
-== Upgrade Notice ==
 
 = 1.1.2 - 8 Aug 24 =
 * Fix not reloading issue after print.
