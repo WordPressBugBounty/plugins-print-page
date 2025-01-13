@@ -148,4 +148,4 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Update theme and Colors
 
 = 1.0.0 =
-* Initial Release
+* Initial Release.
