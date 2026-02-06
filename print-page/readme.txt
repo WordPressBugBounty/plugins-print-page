@@ -1,10 +1,10 @@
-=== Print Page block - Print the entire page or Section. ===
-Contributors: bplugins, abuhayat, charlescormier
+=== Print Page Block – Print Full Page or Specific Section ===
+Contributors: bplugins, abuhayat, freemius, shamim10
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
-Requires at least: 6.2+
-Tested up to: 6.7.2
-Stable tag: 1.1.2
+Requires at least: 6.5+
+Tested up to: 6.8
+Stable tag: 1.2.3
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -16,14 +16,27 @@ Print the entire page or part of any web page with just a single click.
 Print the entire page or part of any web page with just a single click. Add a Print Button on any page with a simple Gutenberg block. Give easy access to print pages to your visitors. 
 This plugin is for you if you want to give the option to print a specific part of your website or the whole webpage. This plugin has been developed in such a way that anyone can easily configure and use it without technical knowledge. 
 
-= Features =
-* Easy to use
-* It does not require much technical knowledge to use
-* Users can print an entire page or a specific part of a page by clicking a button
-* It is lightweight because it relies on JavaScript
+= Free Features =
+- **Multiple Button Variants**: Use beautifully designed default button styles.
+- **Print Full Page**: Instantly print the entire webpage with a single click.
+- **Print Specific Section**: Choose a specific HTML section using a CSS selector (e.g. #content, .article) and print only that part.
+- **Icon Support**: Display a print icon with your button using built-in icon sets.
+- **Basic Button Colors**: Customize text and background colors.
+- **Hover Color Support**: Change colors on hover for better interaction.
+- **Lightweight & Fast**: JavaScript-based printing with minimal performance impact.
+- **Beginner Friendly UI**: No technical knowledge required.
+
+= Pro Features =
+- **Enhanced Print Controls**: Unlock advanced print behaviors like modal print, page orientation, Header & Footer etc.
+- **Custom Icon Upload**: Upload and use your own print icon.
+- **Show / Hide Button Text**: Toggle button text visibility (except Floating Action variant).
+- **Advanced Typography Control**: Customize your button text with Google Fonts, letter spacing, line height, and font weight for a perfect look.
+- **Responsive Padding & Spacing**: Set different padding for desktop, tablet, and mobile views for total design control.
+- **Advanced Border Styles**: Access dashed, dotted, and double border styles with custom radius per corner.
+- **Button Shadow & Hover Shadow Effects**: Add modern soft shadows, neon glows, or layered hover shadows to enhance button depth.
 
 
-**[Demos](https://bblockswp.com/demo/print-page/)**
+**[Get Pro Version](https://bplugins.com/products/print-page/pricing)**
 
 
 = How to use =
@@ -39,24 +52,24 @@ This plugin is for you if you want to give the option to print a specific part o
 - Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
-### ⭐ Check out the Parent Plugin of this plugin-
+### Check out the Parent Plugin of this plugin-
 
-🔥 **[B Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+[**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
 
 
-### ⭐ Check out our other WordPress Plugins-
+### Check out our other WordPress Plugins-
 
-🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
+[**Html5 Video Player**](https://bplugins.com/products/html5-video-player/) – Display videos as single and playlist in multiple skins.
 
-🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
+[**PDF Poster**](https://bplugins.com/products/pdf-poster/) – Display/Embed PDF files with different styles.
 
-🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
+[**Html5 Audio Player**](https://bplugins.com/products/html5-audio-player/) – Listen audios with awesome visuals.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
+[**Panorama Viewer**](https://bplugins.com/products/panorama/) – 360 Virtual Tour, Panoramic image viewer and More.
 
-🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
+[**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
 
-🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block)** – Best Post Display Plugin for WordPress.
+[**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
 
 == Installation ==
@@ -102,12 +115,36 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Screenshots ==
 
-1. Print Button
-2. Print
-3. Print Settings
+1. Add Print Page Block
+2. Print Button - Default
+3. Print Button - Icon Focus
+4. Print Button - Rounded Pill
+5. Print Button - Outline Style
+6. Print Button - Floating Action
+7. Print Button - Interactive Hover
+8. Print Button - Retro
+9. Print Button - Brutalist
+10. Print Button - 3D Effect
+11. Print Button - Text Heavy
+12. Gutenberg Settings
+13. Preview
+14. ShortCode Generator
 
 
 == Changelog ==
+
+= 1.2.3 - 23 Jan 26 =
+* Fix: Print styles now clean up properly after the print dialog closes (prevents removed elements from sometimes staying hidden).
+* Improvement: Updated “Header & Footer” label and help text for clearer guidance (site header/footer vs browser print headers/footers).
+
+= 1.2.2 - 04 Nov 25 =
+* Updated SDK
+
+= 1.2.1 - 31 October 25 =
+* Updated label for the Print Page block post type.
+
+= 1.2.0 - 29 October 25 =
+* added more advanced print controls, 10 variants of print button.
 
 = 1.1.2 - 8 Aug 24 =
 * Fix not reloading issue after print.

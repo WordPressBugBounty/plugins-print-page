@@ -10,7 +10,7 @@
     "print button",
     "page print"
   ],
-  "version": "1.1.2",
+  "version": "1.2.1",
   "textdomain": "print-page",
   "attributes": {
     "align": {
@@ -23,7 +23,11 @@
     },
     "alignment": {
       "type": "string",
-      "default": "right"
+      "default": "center"
+    },
+    "buttonVariant": {
+      "type": "string",
+      "default": "default"
     },
     "isPrintSection": {
       "type": "boolean",
@@ -36,6 +40,22 @@
     "isModal": {
       "type": "boolean",
       "default": false
+    },
+    "isHeaderFooter": {
+      "type": "boolean",
+      "default": true
+    },
+    "isBackground": {
+      "type": "boolean",
+      "default": false
+    },
+    "isLayout": {
+      "type": "boolean",
+      "default": false
+    },
+    "removeSelectors": {
+      "type": "string",
+      "default": ""
     },
     "isIcon": {
       "type": "boolean",
@@ -75,6 +95,13 @@
         "bg": "#4527a433"
       }
     },
+    "btnHoverColors": {
+      "type": "object",
+      "default": {
+        "color": "#4527a4",
+        "bg": "#4527a433"
+      }
+    },
     "btnPadding": {
       "type": "object",
       "default": {
@@ -91,6 +118,10 @@
     "btnShadow": {
       "type": "object",
       "default": {}
+    },
+    "hoverBtnShadow": {
+      "type": "object",
+      "default": {}
     }
   },
   "supports": {
@@ -105,7 +136,10 @@
       "preview": true
     }
   },
-  "editorScript": "file:./index.js",
+  "editorScript": [
+    "file:./index.js",
+    "wp-api"
+  ],
   "editorStyle": "file:./index.css",
   "style": "file:./view.css",
   "render": "file:./render.php",
