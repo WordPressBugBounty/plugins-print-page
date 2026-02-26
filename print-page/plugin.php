@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Print Page - Block
  * Description: Print the entire page with single click
- * Version: 1.2.4
+ * Version: 1.2.5
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -17,7 +17,7 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( function_exists( 'pp_fs' ) ) {
     pp_fs()->set_basename( false, __FILE__ );
 } else {
-    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.4' ) );
+    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.5' ) );
     define( 'PPB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'PPB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'PPB_HAS_FRMS', file_exists( dirname( __FILE__ ) . '/freemius/start.php' ) );
@@ -54,6 +54,14 @@ if ( function_exists( 'pp_fs' ) ) {
         pp_fs();
         do_action( 'pp_fs_loaded' );
     }
+    if ( PPB_HAS_FRMS ) {
+        require_once PPB_DIR_PATH . 'includes/LicenseActivation.php';
+    }
     require_once PPB_DIR_PATH . 'includes/utility/functions.php';
     require_once PPB_DIR_PATH . 'includes/ppbPlugin/plugin.php';
+    add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), function ( $links ) {
+        $help_link = '<a href="' . admin_url( 'edit.php?post_type=print_page&page=ppb_demo_page' ) . '" style="color:#FF7A00;font-weight:bold;">Help & Demos</a>';
+        $links[] = $help_link;
+        return $links;
+    } );
 }

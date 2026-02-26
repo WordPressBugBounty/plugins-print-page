@@ -3,8 +3,8 @@ Contributors: bplugins, abuhayat, freemius, shamim10
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
 Requires at least: 6.5+
-Tested up to: 6.8
-Stable tag: 1.2.4
+Tested up to: 6.9.1
+Stable tag: 1.2.5
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -132,6 +132,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.2.5 - 26 Feb 26 =
+* Added brand new dashboard with license activation support
 
 = 1.2.4 - 08 Feb 26 =
 * Updated: Updated "Show browser header/footer option in print dialog" label and help text.
