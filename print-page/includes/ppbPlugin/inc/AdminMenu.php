@@ -5,7 +5,6 @@ namespace PPB;
 class AdminMenu  {
     function __construct() {
         add_action('admin_menu', [$this, 'ppb_add_demo_submenu']);
-        add_action('admin_head', [$this, 'ppb_admin_menu_color']);
 
     }
 
@@ -13,7 +12,7 @@ class AdminMenu  {
         add_submenu_page(
             'edit.php?post_type=print_page',
             'Help & Demos',
-            'Help & Demos',
+            '<span style="color: #f18500; font-weight: 600;">Help & Demos</span>', 
             'manage_options',
             'ppb_demo_page',
             [$this, 'ppb_render_demo_page']
@@ -33,16 +32,4 @@ class AdminMenu  {
             ></div>
         <?php
     }
-
-    function ppb_admin_menu_color() {
-        ?>
-        <style>
-            #adminmenu a[href="edit.php?post_type=print_page&page=ppb_demo_page"] {
-                color: #f18500 !important; 
-                font-weight: 600 !important;
-            }
-        </style>
-        <?php
-    }
-
 }

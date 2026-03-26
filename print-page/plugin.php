@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Print Page - Block
  * Description: Print the entire page with single click
- * Version: 1.2.5
+ * Version: 1.2.6
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -17,18 +17,18 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( function_exists( 'pp_fs' ) ) {
     pp_fs()->set_basename( false, __FILE__ );
 } else {
-    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.5' ) );
+    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.6' ) );
     define( 'PPB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'PPB_DIR_PATH', plugin_dir_path( __FILE__ ) );
-    define( 'PPB_HAS_FRMS', file_exists( dirname( __FILE__ ) . '/freemius/start.php' ) );
+    define( 'PPB_HAS_FRMS', file_exists( dirname( __FILE__ ) . '/vendor/freemius/start.php' ) );
     if ( !function_exists( 'pp_fs' ) ) {
         function pp_fs() {
             global $pp_fs;
             if ( !isset( $pp_fs ) ) {
                 if ( PPB_HAS_FRMS ) {
-                    require_once PPB_DIR_PATH . '/freemius/start.php';
+                    require_once PPB_DIR_PATH . 'vendor/freemius/start.php';
                 } else {
-                    require_once PPB_DIR_PATH . '/freemius-lite/start.php';
+                    require_once PPB_DIR_PATH . 'vendor/freemius-lite/start.php';
                 }
                 $ssbConfig = [
                     'id'                  => '21137',
