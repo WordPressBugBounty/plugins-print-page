@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
 Requires at least: 6.5+
 Tested up to: 6.9.1
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -132,6 +132,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.2.8 - 03 May, 2026 =
+* **Fixed:** Fixed shortcode rendering & print button disappearing issue.
 
 = 1.2.7 - 09 April, 2026 =
 * **Fixed:** Class naming conflict and namespace resolution issue in LicenseActivation.

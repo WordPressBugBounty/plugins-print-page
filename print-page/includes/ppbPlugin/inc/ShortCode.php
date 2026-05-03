@@ -42,7 +42,10 @@ class Shortcode {
     }
 
     function displayContent( $post ){
-        $blocks = parse_blocks( $post->post_content );
-        return render_block( $blocks[0] );
+        // $blocks = parse_blocks( $post->post_content );
+        // return render_block( $blocks[0] );
+
+         // Return all blocks parsed correctly, avoiding the issue where blocks[0] is empty whitespace
+        return do_blocks( $post->post_content );
     }
 }

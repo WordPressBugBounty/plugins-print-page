@@ -4,7 +4,7 @@
  * Plugin Name: Print Page - Block
  * Plugin URI: https://bplugins.com/products/print-page/
  * Description: Print the entire page with single click
- * Version: 1.2.7
+ * Version: 1.2.8
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -18,7 +18,7 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( function_exists( 'pp_fs' ) ) {
     pp_fs()->set_basename( false, __FILE__ );
 } else {
-    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.7' ) );
+    define( 'PPB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.2.8' ) );
     define( 'PPB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'PPB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'PPB_HAS_FRMS', file_exists( dirname( __FILE__ ) . '/vendor/freemius/start.php' ) );
