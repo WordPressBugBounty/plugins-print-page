@@ -2,9 +2,9 @@
 Contributors: bplugins, abuhayat, freemius, shamim10
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
-Requires at least: 6.5+
-Tested up to: 6.9.1
-Stable tag: 1.2.8
+Requires at least: 6.5
+Tested up to: 7.0
+Stable tag: 1.3.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -46,6 +46,18 @@ This plugin is for you if you want to give the option to print a specific part o
 - Enjoy!
 
 * For installation help click on Installation Tab
+
+
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository: 
+[**Print Page on GitHub**](https://github.com/bPlugins/print-page-free)
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
 
 
 = Feedback =
@@ -132,6 +144,15 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.3.0 - 02 Jun, 2026 =
+* **Added:** Added uninstall data clean-up option in the admin settings dashboard to wipe plugin configurations on deletion.
+* **Added:** Added uninstall.php script to securely remove all custom post types and options if the cleanup setting is enabled.
+* **Added:** Added Gulp task configurations (gulpfile.js and package.json) to automate cross-platform release packaging.
+* **Updated:** Redesigned the shortcode copy-to-clipboard UI column in the print CPT admin table for a better user experience.
+* **Updated:** Migrated PHP class controllers directly under the includes/ directory and refactored code to use namespace PrintPage to comply with standard coding guidelines.
+* **Improved:** Unlocked previously locked pro fields in the Gutenberg editor and introduced a clean, non-intrusive notices UI to display premium feature requirements.
+* **Fixed:** Fixed multiple security issues flagged by WordPress Plugin Check (PCP), including direct access checks (ABSPATH), wp_unslash sanitization for AJAX, and translation string escaping for wp_die.
 
 = 1.2.8 - 03 May, 2026 =
 * **Fixed:** Fixed shortcode rendering & print button disappearing issue.
