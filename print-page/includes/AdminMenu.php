@@ -31,6 +31,7 @@ class AdminMenu  {
                     'version' => PPB_VERSION,
                     'isPremium' => false,
                     'hasPro' => false,
+                    'adminUrl'  => admin_url(),
                     'deleteDataOnUninstall' => (bool) get_option( 'ppb_delete_data_on_uninstall', false ),
                     'uninstallNonce'        => wp_create_nonce( 'ppb_uninstall_nonce' ),
                 ] ) ); ?>'

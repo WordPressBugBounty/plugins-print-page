@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, print page, print button, print section, Gutenberg block
 Requires at least: 6.5
 Tested up to: 7.0
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -144,6 +144,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.3.1 - 14 Jun, 2026 =
+* **Updated:** Modernized the admin settings dashboard layout.
 
 = 1.3.0 - 02 Jun, 2026 =
 * **Added:** Added uninstall data clean-up option in the admin settings dashboard to wipe plugin configurations on deletion.
