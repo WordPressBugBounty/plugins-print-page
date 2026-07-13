@@ -2,7 +2,9 @@
 
 if (!defined('ABSPATH')) exit;
 
+// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedClassFound
 if( !class_exists( 'PPBPlugin' ) ){
+    // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedClassFound
     class PPBPlugin{
         function __construct(){
             $this -> loaded_classes();
