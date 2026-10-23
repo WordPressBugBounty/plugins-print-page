@@ -1,73 +1,73 @@
-=== Print Page Block – Print Full Page or Specific Section ===
-Contributors: bplugins, abuhayat, freemius, shamim10
-Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, print page, print button, print section, Gutenberg block
-Requires at least: 6.5
+=== Print Page Block – make any page printable in one click ===
+Contributors: bplugins, abuhayat, sojibislam9878, freemius, 
+Tags: print page, print button, print section, gutenberg block, block
 Tested up to: 7.0
 Stable tag: 1.3.2
 Requires PHP: 7.1
+Requires at least: 6.5
+Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Print the entire page or part of any web page with just a single click.
+Add a print button to any page with a Gutenberg block – let visitors print the full page or a specific section with a single click
 
 == Description ==
 
-Print the entire page or part of any web page with just a single click. Add a Print Button on any page with a simple Gutenberg block. Give easy access to print pages to your visitors. 
-This plugin is for you if you want to give the option to print a specific part of your website or the whole webpage. This plugin has been developed in such a way that anyone can easily configure and use it without technical knowledge. 
+**Give your visitors one-click printing – add a stylish print button that prints the whole page or just the section you choose.**
 
-= Free Features =
-- **Multiple Button Variants**: Use beautifully designed default button styles.
-- **Print Full Page**: Instantly print the entire webpage with a single click.
-- **Print Specific Section**: Choose a specific HTML section using a CSS selector (e.g. #content, .article) and print only that part.
-- **Icon Support**: Display a print icon with your button using built-in icon sets.
-- **Basic Button Colors**: Customize text and background colors.
-- **Hover Color Support**: Change colors on hover for better interaction.
-- **Lightweight & Fast**: JavaScript-based printing with minimal performance impact.
-- **Beginner Friendly UI**: No technical knowledge required.
+[**Get Pro Version**](https://bplugins.com/products/print-page/pricing)
 
-= Pro Features =
-- **Enhanced Print Controls**: Unlock advanced print behaviors like modal print, page orientation, Header & Footer etc.
-- **Custom Icon Upload**: Upload and use your own print icon.
-- **Show / Hide Button Text**: Toggle button text visibility (except Floating Action variant).
-- **Advanced Typography Control**: Customize your button text with Google Fonts, letter spacing, line height, and font weight for a perfect look.
-- **Responsive Padding & Spacing**: Set different padding for desktop, tablet, and mobile views for total design control.
-- **Advanced Border Styles**: Access dashed, dotted, and double border styles with custom radius per corner.
-- **Button Shadow & Hover Shadow Effects**: Add modern soft shadows, neon glows, or layered hover shadows to enhance button depth.
+### Why Print Page Block?
 
+Some content is meant to be printed – recipes, tickets, invoices, documentation. **Print Page Block** adds a print button to any page with a simple Gutenberg block, so visitors can print the entire webpage or only a specific part of it with a single click.
 
-**[Get Pro Version](https://bplugins.com/products/print-page/pricing)**
+Want to print just the article and skip the sidebar? Point the block at any HTML section using a CSS selector (e.g. `#content`, `.article`) and only that part gets printed.
 
+The plugin has been developed so anyone can configure and use it without technical knowledge – pick a button style, set your colors and publish.
 
-= How to use =
-- First, install the Print Page plugin
-- Add the Print Page block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
-- Enjoy!
+### Free Features
 
-* For installation help click on Installation Tab
+- **Multiple Button Variants:** Use beautifully designed default button styles.
+- **Print Full Page:** Instantly print the entire webpage with a single click.
+- **Print Specific Section:** Choose a specific HTML section using a CSS selector (e.g. #content, .article) and print only that part.
+- **Icon Support:** Display a print icon with your button using built-in icon sets.
+- **Basic Button Colors:** Customize text and background colors.
+- **Hover Color Support:** Change colors on hover for better interaction.
+- **Lightweight & Fast:** JavaScript-based printing with minimal performance impact.
+- **Beginner Friendly UI:** No technical knowledge required.
 
+### Pro Version
 
-== Source Code ==
+[**Print Page Pro**](https://bplugins.com/products/print-page/pricing) unlocks advanced print behaviors and design controls:
 
-You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository: 
-[**Print Page on GitHub**](https://github.com/bPlugins/print-page-free)
+- **Enhanced Print Controls:** Modal print, page orientation, header & footer options and more.
+- **Custom Icon Upload:** Upload and use your own print icon.
+- **Show / Hide Button Text:** Toggle button text visibility (except Floating Action variant).
+- **Advanced Typography:** Google Fonts, letter spacing, line height and font weight.
+- **Responsive Padding & Spacing:** Different padding for desktop, tablet, and mobile.
+- **Advanced Border Styles:** Dashed, dotted, and double borders with custom radius per corner.
+- **Button Shadow & Hover Effects:** Soft shadows, neon glows, or layered hover shadows.
 
-= bpl-tools =
-* Source / GitHub: https://github.com/bPlugins/bpl-tools
-* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
-* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
-* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
+### How to Use
 
+1. Install and activate the **Print Page** plugin.
+2. In the Gutenberg editor, add the **Print Page** block from the "Widgets" block category.
+3. Choose full-page printing or enter a CSS selector for a specific section.
+4. Style the button from the right-side settings sidebar.
+5. Publish – your visitors can now print with one click.
 
-= Feedback =
-- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
+### Use Cases
 
+- **Recipes & How-To Guides:** Let readers print instructions to follow offline.
+- **Documentation & Knowledge Bases:** Offer printable articles and manuals.
+- **Invoices, Tickets & Certificates:** Print only the relevant section of the page.
+- **Legal & Policy Pages:** Give visitors easy hard-copy access to terms and policies.
+
+Did you like this plugin? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback').
 
 ### Check out the Parent Plugin of this plugin-
 
 [**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
-
 
 ### Check out our other WordPress Plugins-
 
@@ -83,47 +83,55 @@ You can find the source code, report bugs, and contribute to the development of 
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
-
 == Installation ==
 
-= From Gutenberg Editor: =
-1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Print Page**
-3. Click on the **Print Page** block to add the block
+**From your WordPress dashboard (recommended):**
 
-= Download & Upload: =
-1. Download the **Print Page** plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`print-page.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"Print Page"**.
+3. Click **Install Now**, then **Activate**.
+4. Add the **Print Page** block to any post or page in the Gutenberg editor.
 
-= Manually: =
-1. Download and upload the **Print Page** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
 
+1. Download the **Print Page** plugin (*.zip file*).
+2. In your admin area, go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the **`print-page.zip`** file and click **Install Now**.
+4. Activate the plugin through the **Plugins** menu in WordPress.
 
 == Frequently Asked Questions ==
 
 = Is Print Page free? =
 
-Yes, Print Page is a free Gutenberg block plugin.
+Yes, Print Page is a free Gutenberg block plugin. A Pro version with advanced print controls and design options is also available.
 
 = Does it work with any WordPress theme? =
 
 Yes, it will work with any standard WordPress theme.
 
+= Can visitors print only part of a page? =
+
+Yes. Enter a CSS selector (e.g. #content or .article) in the block settings and the button will print only that section instead of the whole page.
+
+= Can I style the print button? =
+
+Yes. The free version includes multiple button variants, icon support, and text, background, and hover color options. The Pro version adds typography, borders, shadows, and responsive spacing controls.
+
+= Will the plugin slow down my site? =
+
+No. Printing is JavaScript-based and lightweight, with minimal performance impact.
+
 = Can I change block settings? =
 
 Yes, you can change block settings from the Gutenberg block editor's right sidebar.
 
-= How many times can I reuse a block? =
+= How many times can I reuse the block? =
 
-You can use unlimited times as you want.
+You can use the block an unlimited number of times.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/print-page/)
-
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/print-page/).
 
 == Screenshots ==
 
@@ -142,6 +150,18 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 13. Preview
 14. ShortCode Generator
 
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Print Page on GitHub**](https://github.com/bPlugins/print-page-free)
+
+== Third-Party Libraries ==
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
 
 == Changelog ==
 
