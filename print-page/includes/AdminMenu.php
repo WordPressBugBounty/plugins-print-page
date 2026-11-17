@@ -24,6 +24,9 @@ class AdminMenu  {
     }
 
     function ppb_render_demo_page(){
+        if ( class_exists( '\PPB\Admin\PPB_PromoBanner' ) ) {
+            \PPB\Admin\PPB_PromoBanner::render_banner();
+        }
         ?>
             <div
                 id='ppbCurrentBplDashboard'

@@ -11,6 +11,7 @@ if( !class_exists( 'PPBPlugin' ) ){
         }
  
         function loaded_classes(){
+			require_once PPB_DIR_PATH . 'includes/BFCMCamping.php';
 			require_once PPB_DIR_PATH . 'includes/Init.php';
 			require_once PPB_DIR_PATH . 'includes/AdminMenu.php';
 			require_once PPB_DIR_PATH . 'includes/Enqueue.php';
